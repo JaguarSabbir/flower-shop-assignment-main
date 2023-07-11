@@ -19,7 +19,7 @@ body {
     margin: 0 auto;
 }
 
-.flower {
+.shop {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,7 +27,7 @@ body {
 }
 
 
-.flower-title {
+.shop-title {
     display: flex;
     color: #272727;
     font-size: 80px;
@@ -37,7 +37,7 @@ body {
 
 }
 
-.flower-description {
+.shop-description {
     display: flex;
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
@@ -56,7 +56,7 @@ body {
     font-weight: 700;
 }
 
-.flower .profile-pic {
+.flower .big-flower {
     width: 635px;
     padding-top: 50px;
 }
@@ -84,13 +84,13 @@ body {
     padding-bottom: 48px;
 }
 
-.product {
+.tree {
     display: flex;
     justify-content: center;
     gap: 24px;
 }
 
-.product-one {
+.tree-one {
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
     width: 464px;
@@ -100,7 +100,7 @@ body {
     padding-top: 50px;
 }
 
-.product-two {
+.tree-two {
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
     width: 464px;
@@ -112,7 +112,7 @@ body {
 
 }
 
-.product-three {
+.tree-three {
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
     width: 464px;
@@ -123,7 +123,7 @@ body {
 
 }
 
-.product-heading {
+.tree-heading {
     color: #272727;
     text-align: center;
     font-size: 24px;
@@ -132,7 +132,7 @@ body {
     padding-top: 32px;
 }
 
-.support-section {
+.service-section {
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
     width: 1440px;
@@ -142,7 +142,7 @@ body {
     margin-bottom: 150px;
 }
 
-.support-container {
+.service-container {
     display: flex;
     justify-content: center;
     padding-top: 90px;
@@ -150,17 +150,67 @@ body {
     gap: 100px;
 }
 
-.support-info {
+.service-info {
     text-align: center;
     padding-bottom: 24px;
 }
 
-.support-title {
+.service-title {
     color: rgba(39, 39, 39, 0.80);
     font-size: 24px;
     font-weight: 700;
     padding-top: 20px;
 }
+
+/* .sells {
+
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.sells-about {
+    background: rgba(5, 151, 160, 0.15);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 1922px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.sells-title {
+    text-align: center;
+    padding-bottom: 16px;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.sells-description {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400px;
+    padding-bottom: 30px;
+}
+
+.sells-info {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.sells-place {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.sells-info img {
+    width: 400px;
+    height: 300px;
+    border-radius: 8px;
+}
+.show-btn{
+    text-align: center;
+    padding-top: 40px;
+} */
 
 .hot-deal {
     border-radius: 8px;
@@ -197,13 +247,13 @@ body {
     margin-bottom: 24px;
 }
 
-.showroom {
+.decoration {
 
     margin-top: 150px;
 }
 
-.showroom-about {
-    background: rgba(71, 125, 17, 0.15);
+.decoration-about {
+    background: rgba(167, 33, 98, 0.15);
     padding-top: 50px;
     padding-bottom: 50px;
     width: 1922px;
@@ -211,32 +261,32 @@ body {
     margin: 0 auto;
 }
 
-.showroom-title {
+.decoration-title {
     text-align: center;
     padding-bottom: 16px;
     font-size: 40px;
     font-weight: 800;
 }
 
-.showroom-description {
+.decoration-description {
     text-align: center;
     font-size: 18px;
     font-weight: 400px;
     padding-bottom: 30px;
 }
 
-.showroom-info {
+.decoration-info {
     display: flex;
     justify-content: center;
     gap: 50px;
 }
 
-.showroom-place {
+.decoration-place {
     padding-top: 20px;
     padding-bottom: 10px;
 }
 
-.showroom-info img {
+.decoration-info img {
     width: 400px;
     height: 300px;
     border-radius: 8px;
@@ -246,7 +296,7 @@ body {
     background: #FFF;
 }
 
-.instragram-container {
+.instagram-container {
     text-align: center;
     margin-top: 150px;
 }
@@ -315,21 +365,73 @@ body {
     position: relative;
 }
 
+.outlets {
+
+    margin-top: 150px;
+}
+
+.outlets-about {
+    background: rgba(71, 125, 17, 0.15);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 1922px;
+    height: 650px;
+    margin: 0 auto;
+}
+
+.outlets-title {
+    text-align: center;
+    padding-bottom: 16px;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.outlets-description {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400px;
+    padding-bottom: 30px;
+}
+
+.outlets-info {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.outlets-place {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.outlets-info img {
+    width: 400px;
+    height: 300px;
+    border-radius: 8px;
+}
+.outlets-map{
+    padding-bottom: 16px;
+    padding-top: 8px;
+}
 
 .footer-section {
+   
+    margin-top: 150px;
+}
+.footer-container{
     background-color: #111010;
     text-align: center;
     padding-bottom: 150px;
     width: 1922px;
     height: 449px;
-    margin: 0 auto;
+    margin: 0 auto; 
 }
 
 .footer-title {
     font-size: 48px;
     font-weight: 800;
     color: #FFF;
-    padding-top: 150px;
+    padding-top: 170px;
 }
 
 .footer-description {
